@@ -1,0 +1,13 @@
+div {
+    display: flex;
+    gap: 12px;
+}
+
+div label, div input {
+    cursor: pointer;
+}
+
+button {
+    display: block;
+    margin-top: 20px;
+}

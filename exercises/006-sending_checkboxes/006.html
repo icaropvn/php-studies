@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>PHP Exercício 06</title>
+
+    <link rel="stylesheet" href="006.css">
+</head>
+<body>
+    <h1>Aula 03 - Exercícios PHP</h1>
+    <p>Exercício 06</p>
+    <hr>
+
+    <h2>Enviando múltiplas informações</h2>
+
+    <p>Marque as tecnologias de seu interesse:</p>
+
+    <form action="006.php" method="GET">
+        <div>
+            <label>
+                <input type="checkbox" name="interests[]" value="html5">
+                HTML5
+            </label>
+            <label>
+                <input type="checkbox" name="interests[]" value="css3">
+                CSS3
+            </label>
+            <label>
+                <input type="checkbox" name="interests[]" value="javascript">
+                JavaScript
+            </label>
+            <label>
+                <input type="checkbox" name="interests[]" value="ccpp">
+                C/C++
+            </label>
+            <label>
+                <input type="checkbox" name="interests[]" value="java">
+                Java
+            </label>
+            <label>
+                <input type="checkbox" name="interests[]" value="php">
+                PHP
+            </label>
+            <label>
+                <input type="checkbox" name="interests[]" value="kotlin">
+                Kotlin
+            </label>
+        </div>
+
+        <button type="submit">Enviar</button>
+    </form>
+</body>
+</html>

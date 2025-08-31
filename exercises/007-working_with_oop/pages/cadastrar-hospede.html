@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Cadastrar Hóspede - Refúgio das Estrelas</title>
+
+    <style>
+        label {
+            display: block;
+            margin-bottom: 10px;
+        }
+
+        button {
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <a href="../index.php">Voltar</a>
+    <h1>Hotel Refúgio das Estrelas</h1>
+    <p>Cadastro de hóspedes</p>
+    <hr>
+
+    <h2>Insira as informações para cadastrar um hóspede</h2>
+    <form action="../services/cadastrar-hospede.php" method="POST">
+        <label>
+            Nome:
+            <input type="text" name="nome-hospede" required>
+        </label>
+        <label>
+            CPF:
+            <input type="number" name="cpf-hospede" required>
+        </label>
+        <label>
+            RG:
+            <input type="text" name="rg-hospede" required>
+        </label>
+        <label>
+            Telefone:
+            <input type="number" name="telefone-hospede" required>
+        </label>
+
+        <button type="submit">Cadastrar</button>
+    </form>
+</body>
+</html>

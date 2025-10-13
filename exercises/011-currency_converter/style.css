@@ -1,0 +1,84 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Figtree", Arial, sans-serif;
+}
+
+h1 {
+    font-size: 60px;
+    text-align: center;
+    margin-top: 100px;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+p {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 18px;
+}
+
+a {
+    display: block;
+    width: fit-content;
+    margin: 0 auto;
+    text-decoration: none;
+    color: #000000;
+    background-color: #c9c9c9;
+    padding: 8px 16px;
+    border-radius: 5px;
+    margin-top: 50px;
+}
+
+a:hover {
+    background-color: #a8a8a8;
+}
+
+form {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color: #e3d9ff;
+    border-radius: 10px;
+    padding: 25px 40px;
+}
+
+form input {
+    display: block;
+    margin-top: 10px;
+    width: 100%;
+    padding: 8px 12px;
+    border-radius: 5px;
+    border: none;
+    font-size: 16px;
+}
+
+form input:focus {
+    outline: 2px solid #9176da;
+}
+
+form button {
+    background-color: #8f70ff;
+    color: #FFFFFF;
+    margin-top: 20px;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.1s ease-out;
+}
+
+form button:hover {
+    background-color: #6b4ae2;
+}
